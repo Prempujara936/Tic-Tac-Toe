@@ -35,16 +35,15 @@ const winFun = (letter) => {
   disableButtons();
   if (letter == "X") {
     message.innerHTML = "'X' Wins";
-    message.style.color = '#ED3E3E';
-  } 
-  else {
-    message.innerHTML = "'0' Wins";
-    message.style.color = '#3F66Da';
+    message.style.color = "#ED3E3E";
+  } else {
+    message.innerHTML = "'O' Wins";
+    message.style.color = "#3F66Da";
   }
 };
 
 const drawFun = () => {
-    disableButtons();
+  disableButtons();
   message.innerHTML = "Draw";
 };
 
